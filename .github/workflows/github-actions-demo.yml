@@ -5,8 +5,8 @@ on:
     branches:
     - main
   push:
-    branches: main
-    paths-ignore: .github/**
+    branches: [main]
+    paths-ignore: [.github/**]
   schedule:
     - cron: "15 06 * * SUN"
 
